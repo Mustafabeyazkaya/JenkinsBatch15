@@ -1,0 +1,32 @@
+<tagName attribute1="ValueOfAttribute1" attribute2="ValueOfAttribute2" attribute3="ValueOfAttribute3"/>
+<tagName attribute1="ValueOfAttribute1" attribute2="ValueOfAttribute2" attribute3="ValueOfAttribute3"> InnerText </tagName>
+
+--> TagName
+--> Attribute and its value and vice-versa
+--> count of Attributes
+
+
+
+id    [can have only one value]  /unique
+name  [can have only one value]  /99% unique
+class [can have multiple values] /duplicated
+
+<div id="abcd" name="efgh"/>
+
+<div name"efgh" class"abcd"/>
+
+===========================================
+
+"We use below locators, when we see ant inner text"
+linktext
+partialLinktext
+
+======================================
+
+"We use below locators,when the attributes are not unique (eger attributlar tam net belli bir sey vermeyecekse sana)
+Xpath
+Css
+=========================================
+
+"We use below locator, when we need to select multiple fields"
+tagName
