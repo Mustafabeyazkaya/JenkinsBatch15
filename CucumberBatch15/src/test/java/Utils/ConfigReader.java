@@ -7,12 +7,11 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-public class ConfigReader {
+public class ConfigReader {//this is for UI part
     static Properties prop;
    public static Properties readProperties(){
        try {
            FileInputStream fileInputStream=new FileInputStream(Constants.PROPERTY_FILE_PATH);// it comes from PROPERTY_FILE_PATH method in Constants class in Utils package
-
            prop =new Properties();
            prop.load(fileInputStream);
        } catch (FileNotFoundException e) {

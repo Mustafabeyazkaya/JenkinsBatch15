@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class BasicStructure {
+public class BasicStructure {
+    String power;
+    String color;
+    String model;
 }
